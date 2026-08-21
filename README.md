@@ -22,3 +22,12 @@ Then open:
 - **Space**: Jump
 - **Mouse drag**: Look around
 - **Mouse wheel**: Camera distance
+
+### Deploy on GitHub Pages
+
+1. Go to **Settings → Pages** in this repository.
+2. Set **Source** to **GitHub Actions**.
+3. Push to `main` (or run the workflow manually).
+4. Open the published site at:
+
+`https://<your-username>.github.io/sincollege-minigame-2/`
