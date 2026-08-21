@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>George Pouria: The Lost Numbers</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <canvas id="gameCanvas"></canvas>
+
+  <div id="hud" class="panel">
+    <div id="xp">⚡ XP 0</div>
+    <div id="objectiveTitle">OBJECTIVE</div>
+    <div id="objective">Repair the broken bridge. Find the missing number.</div>
+  </div>
+
+  <div id="controlsHint" class="panel">
+    <strong>WASD</strong> Move<br />
+    <strong>SPACE</strong> Jump<br />
+    <strong>MOUSE</strong> Look
+  </div>
+
+  <button id="muteBtn" aria-label="Toggle sound">🔊</button>
+
+  <div id="dialogue"></div>
+  <div id="eventText"></div>
+
+  <div id="victoryScreen" class="hidden">
+    <div class="card">
+      <h1>MISSION COMPLETE!</h1>
+      <h2>🌟 NUMBER EXPLORER 🌟</h2>
+      <p>You repaired the Number Machine!</p>
+      <p><strong>XP</strong><br />+250</p>
+      <p><strong>Challenges Completed</strong><br />3 / 3</p>
+      <button id="playAgain">PLAY AGAIN</button>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/three@0.166.1/build/three.min.js"></script>
+  <script src="./game.js"></script>
+</body>
+</html>
